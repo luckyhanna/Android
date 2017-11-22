@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">You choose</string>
+    <string name="question">How do YOU want to celebrate?</string>
+    <string name="love">Love you!</string>
+    <string name="option1">Dinner</string>
+    <string name="option2">Movie</string>
+    <string name="option3">Home :)</string>
+</resources>
