@@ -20,7 +20,7 @@
         <TextView
             android:id="@+id/question"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="@dimen/zero_height"
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:shadowColor="@android:color/white"
@@ -29,8 +29,8 @@
             android:shadowRadius="1"
             android:text="@string/question"
             android:textAlignment="center"
-            android:textColor="#32215b"
-            android:textSize="32sp" />
+            android:textColor="@color/darkBlue"
+            android:textSize="@dimen/font_large_size" />
 
         <LinearLayout
             android:id="@+id/optionsList"
@@ -49,22 +49,22 @@
 
                 <ImageView
                     android:id="@+id/firstOptionImg"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
                     android:scaleType="centerCrop"
                     android:src="@drawable/dinner"
                     android:contentDescription="@string/option3"/>
 
                 <TextView
                     android:id="@+id/firstOptionText"
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/zero_height"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/option1"
                     android:textAlignment="gravity"
-                    android:textSize="24sp" />
+                    android:textSize="@dimen/font_size" />
 
             </LinearLayout>
 
@@ -77,22 +77,22 @@
 
                 <ImageView
                     android:id="@+id/secondOptionImg"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
                     android:scaleType="centerCrop"
                     android:src="@drawable/movie2"
                     android:contentDescription="@string/option3"/>
 
                 <TextView
                     android:id="@+id/secondOptionText"
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/zero_height"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/option2"
                     android:textAlignment="gravity"
-                    android:textSize="24sp" />
+                    android:textSize="@dimen/font_size" />
 
             </LinearLayout>
 
@@ -104,22 +104,22 @@
 
                 <ImageView
                     android:id="@+id/thirdOptionImg"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
                     android:scaleType="centerCrop"
                     android:src="@drawable/cuddle1"
                     android:contentDescription="@string/option3" />
 
                 <TextView
                     android:id="@+id/thirdOptionText"
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/zero_height"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:text="@string/option3"
                     android:textAlignment="gravity"
-                    android:textSize="24sp" />
+                    android:textSize="@dimen/font_size" />
 
             </LinearLayout>
 
@@ -127,7 +127,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="@dimen/zero_height"
             android:layout_weight="1"
             android:orientation="horizontal">
 
@@ -137,12 +137,12 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:text="@string/love"
-                android:textColor="#4b328c"
-                android:textSize="32sp" />
+                android:textColor="@color/mediumDarkBlue"
+                android:textSize="@dimen/font_large_size" />
 
             <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/image_width_medium"
+                android:layout_height="@dimen/image_height_medium"
                 android:layout_centerVertical="true"
                 android:layout_margin="10dp"
                 android:layout_toRightOf="@id/love"
